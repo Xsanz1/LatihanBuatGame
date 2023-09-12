@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbm5j6xa1btyq"]
+
+[ext_resource type="PackedScene" uid="uid://b4y6x77ayi2c" path="res://player.tscn" id="1_thmfc"]
+[ext_resource type="PackedScene" uid="uid://cawwsw1y741vd" path="res://jalan.tscn" id="2_trp46"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_thmfc")]
+
+[node name="Node2D2" parent="." instance=ExtResource("2_trp46")]
